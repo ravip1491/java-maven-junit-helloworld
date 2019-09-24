@@ -26,6 +26,18 @@
     <jacoco.plugin.version>0.8.1</jacoco.plugin.version>
   </properties>
 
+         <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactoryrp-artifactory-primary-0-releases</name>
+        <url>https://artifactoryrp.jfrog.io/artifactoryrp/rp-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactoryrp-artifactory-primary-0-snapshots</name>
+        <url>https://artifactoryrp.jfrog.io/artifactoryrp/rp-local</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <!-- Testing dependencies. -->
     <dependency>
